@@ -25,7 +25,7 @@ export const loader = async ({
 
 export default function Contact() {
   const { contact } = useLoaderData<typeof loader>();
-  const contact = {
+  contact = {
     first: "Your",
     last: "Name",
     avatar: "https://placekitten.com/g/200/200",
