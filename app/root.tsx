@@ -81,7 +81,7 @@ export default function App() {
               submit(event.currentTarget, {
                 replace: !isFirstSearch,
                 });
-              }
+                }}
             role="search">
               <input
                 id="q"
